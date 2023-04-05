@@ -5,16 +5,18 @@ layout: default
 
 {% include career-profile.html %}
 
-{% unless site.data.data.sidebar.education %}
-  {% include education.html %}
-{% endunless %}
+{% include career-highlights.html %}
 
 {% include experiences.html %}
 
 {% include projects.html %}
 
-{% include oss-contributions.html %}
+<!--{% include oss-contributions.html %}-->
 
-{% include publications.html %}
+<!--{% include publications.html %}-->
+
+{% unless site.data.data.sidebar.education %}
+  {% include education.html %}
+{% endunless %}
 
 {% include skills.html %}

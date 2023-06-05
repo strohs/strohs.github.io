@@ -50,20 +50,23 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Seasoned Software Engineer with 16 years of experience in the Information Technology industry split 
-      between a Fortune 500 tech company and a start-up.  Completed over a dozen software projects using various 
-      full-stack and speech-recognition systems residing both on-premise and in the cloud.
+      Seasoned Software Engineer with 16 years of experience in the Information Technology industry split between a 
+      Fortune 500 tech company and a start-up. Implemented over a dozen solutions using full-stack and 
+      speech-recognition technologies for customers in the telecom, insurance, and financial industries.
       
-      Core competencies include Java, JavaScript, Rust, Spring Framework, 
-      Spring Boot,Amazon Web Services, REST APIs, JavaEE, MySQL, Vue.js, VoiceXML.  
+      Core competencies include software design and development with a focus on the back-end using: 
+      Java, Spring Framework, REST, AWS, Rust, JavaScript, Python, MySQL, Vue.js.  
 
 career-highlights:
   title: Career Highlights
   summary: |
-    - Developed the core server systems and APIs that powered a speech-recognition start-up, enabling it to
-    transcribe thousands of audio files per hour. 
-    - Implemented dozens of middleware systems utilizing IBM software and speech-recognition technology for companies in various industries 
-    - bullet point
+    - Designed and developed the back-end infrastructure of a speech recognition start-up. Growing it from a 
+    proof-of-concept mobile app, into a cloud based SaaS platform handling thousands of transaction per hour.
+    - Grew a speech recognition start-up from its early stages onto eventual acquisition by 
+    Amazon.com, by implementing the back-end software and APIs that powered its SaaS cloud platform
+    - Positioned IBM's automated speech recognition (ASR) middleware as a viable enhancement to corporate call centers 
+    by implementing over a dozen ASR systems for companies across various industries  
+    - 
 
 education:
     title: Education
@@ -72,6 +75,22 @@ education:
         university: Virginia Polytechnic Institute and State University
         time: 1995
         details: #|
+
+certifications:
+  title: Professional Certifications
+  info:
+    - name: Spring Professional v4.3
+      time: March 2018
+      issuer: Pivotal Software Inc.
+      link: "https://bcert.me/sfiodawb"
+      details: #|
+
+    - name: AWS Certified Developer – Associate
+      time: November 2018 - November 2021
+      issuer: Amazon Web Services Training and Certification
+      link: "https://www.credly.com/badges/45f7f91a-5c5f-4bdd-99ad-bb6ca1fea79b/public_url"
+      details: #|
+
 experiences:
     title: Professional Experience
     info:
@@ -80,11 +99,12 @@ experiences:
         company: Yap Inc., Charlotte, NC.
         details: |
           Yap was a start-up company that pioneered the world’s first high accuracy, automated speech recognition 
-          platform for “long duration” dialogues. I was one of the initial members of Yap’s engineering team and 
-          helped build the company’s back-end infrastructure from a proof-of-concept application to a cloud based 
-          SaaS platform. Yap was acquired by Amazon.com in March 2012 and used to help build Amazon Alexa.
+          platform for “long duration” dialogues. I was the third engineer to join the company and 
+          tasked with building the back-end systems that powered Yap's mobile apps and cloud based 
+          SaaS platform. 
+          Yap was acquired by Amazon.com in March 2012 and used to help build Amazon Alexa.
             - Implemented multiple REST APIs that ingested audio files, queued them for processing by speech recognition engines and then returned the transcribed results to clients
-            - Lead all service engagments with Yap’s corporate customers, responsible for integrating Yap’s APIs into their exiting front-end/back-end infrastructure
+            - Lead all service engagments with Yap’s corporate customers, responsible for integrating Yap’s APIs into their existing front-end/back-end infrastructure
             - Developed text post processing algorithms utilized by Yap's transcription APIs. These algorithms punctuated, sanitized, and (in some cases) improved transcription accuracy before being sent to our customers
 
       - role: Advisory Software Engineer
@@ -111,33 +131,19 @@ experiences:
 projects:
     title: Projects
     intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      A collection of personal projects showcasing various front-end and back-end technologies including: Java, Spring Framework, AWS, REST, JavaScript, HTML, Rust, Python, Node.js and more.
     assignments:
       - title: SpringBoot Blogen
         link: "https://github.com/strohs/springboot-blogen"
-        tagline: "A fictional, full-stack, micro-blog/message-board website powered by Java, Spring Boot, H2 database, and rendered with thymeleaf and Bootstrap."
+        tagline: "A fictional, full-stack, micro-blog/message-board website powered by Java, Spring Boot, Spring MVC, H2 database, and rendered with thymeleaf and Bootstrap 4."
 
       - title: SpringBoot Blogen Vue.js
         link: "https://github.com/strohs/springboot-blogen-vuejs"
-        tagline: "A variation my Blogen micro-blog/message-board site that uses Vue.js to render the front-end along with Java, Spring Boot, and Spring Security OAuth2 to run (and secure) the back-end."
+        tagline: "A variation of my Blogen micro-blog/message-board that uses Vue.js to render the front-end, along with Java, Spring Boot, Spring MVC, Spring Security (with JWT and OAuth2) to run the back-end."
 
       - title: AWS-Blogen-Vue
         link: "https://github.com/strohs/aws-blogen-vue"
-        tagline: "An AWS focused version of my Blogen micro-blog/message-board that uses Java, Spring Boot, AWS Cognito, and AWS DynamoDB on the back-end, and Vue.js to render the front-end."
-
-      - title: Memeify
-        link: "https://github.com/strohs/memeify"
-        tagline: "An proof of concept webpage / AWS application, that lets users create a 'meme' image by adding text to a jpeg/png file. It's written in Kotlin and uses AWS API Gateway / AWS Lamda to do the image processing, and S3 to store the final image"
-
-      - title: Visual Pathfinding Algorithms
-        link: "https://github.com/strohs/visual-pathfinding-algorithms"
-        tagline: "An interactive web application (HTML / canvas / JavaScript ES6) that animates some popular pathfinding algorithms (like A* and Dijkstra's) as they find the lowest cost path from a start cell to a goal cell on a two-dimensional grid"
-
-      - title: Wordle Solver
-        link: "https://github.com/strohs/wordle-solver-rust"
-        tagline: "A command line application that uses information theory to solve a game of [wordle](https://www.nytimes.com/games/wordle/index.html), written in Rust and [my other implementation written in Java](https://github.com/strohs/wordle-solver-java"
+        tagline: "An AWS focused version of my Blogen micro-blog/message-board that uses Java, Spring Boot, Spring MVC, AWS Cognito, and AWS DynamoDB on the back-end, and Vue.js to render the front-end."
 
       - title: Rust Key/Value Store
         link: "https://github.com/strohs/rust-key-value-store"
@@ -145,19 +151,34 @@ projects:
 
       - title: Rust Raytracer
         link: "https://github.com/strohs/raytracer"
-        tagline: "A Rust implementation of the software raytracer from the first two books of [Ray Tracing in One Weekend](https://raytracing.github.io/)."
+        tagline: "A Rust implementation of the software raytracer from the first two books of <a href='https://raytracing.github.io'>Ray Tracing in one Weekend</a>"
+
+      - title: Memeify
+        link: "https://github.com/strohs/memeify"
+        tagline: "An AWS Lambda (written in Kotlin) that lets users create 'memes' by adding text to an image (.jpeg or .png). It uses API Gateway, Lambda and S3 to process and store the image."
+
+      - title: Visual Pathfinding Algorithms
+        link: "https://github.com/strohs/visual-pathfinding-algorithms"
+        tagline: "An interactive web page (HTML / CSS / canvas / JavaScript ES6) that animates pathfinding algorithms, like A* and Dijkstra's, as they find the lowest cost path from a start cell to a goal cell on a two-dimensional grid"
+
+      - title: Wordle Solver
+        link: "https://github.com/strohs/wordle-solver-rust"
+        tagline: "A command line application, written in Rust, that can help solve a game of Wordle."
 
       - title: Brewery Microservices
         link: "https://github.com/strohs/brewery-microservices"
-        tagline: "A sample project that simulates order/inventory management of an imaginary beer brewery using a microservices architecture, powered by Spring Boot / Spring Cloud / MySQL / Artemis JMS / Docker / AWS Cloud Development Kit"
+        tagline: | 
+          Simulates order/inventory management of an imaginary beer brewery using a 
+          microservices architecture. It's powered by Spring Boot / Spring Cloud / MySQL / Artemis JMS. 
+          It can be run locally using Docker or deployed to AWS using the provided cloud development kit templates.
 
       - title: Maze Generation Algorithms
         link: "https://github.com/strohs/maze-algorithms"
-        tagline: "Examples of various [maze generation algorithms](https://en.wikipedia.org/wiki/Maze_generation_algorithm) written in Rust, Java, JavaScript (NodeJS) and Python."
+        tagline: "Various implementations of <a href='https://en.wikipedia.org/wiki/Maze_generation_algorithm'>maze generation algorithms</a> written in different languages: Rust, Java, JavaScript (NodeJS) and Python"
 
       - title: Python Raytracer
         link: "https://github.com/strohs/python-raytracing-weekend"
-        tagline: "A Python implementation of the software raytracer from the first two books of [Ray Tracing in One Weekend](https://raytracing.github.io/)."
+        tagline: "A Python implementation of the software raytracer from the first two books of <a href='https://raytracing.github.io'>Ray Tracing in one Weekend</a>."
 
 
 #oss:
@@ -218,7 +239,7 @@ skills:
         level: 80%
 
       - name: Rust
-        level: 80%
+        level: 85%
 
       - name: Python
         level: 70%
